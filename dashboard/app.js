@@ -218,12 +218,12 @@ function renderFeatures() {
 function setupTweetButton() {
     const btn = document.getElementById('tweet-btn');
     const text = encodeURIComponent(
-        `🏏 Built an IPL 2026 Match Prediction Engine — a research project\n\n` +
+        `🏏 Yorker AI — IPL 2026 Match Prediction Engine\n\n` +
         `📊 67.1% accuracy on IPL 2025 holdout (70 matches)\n` +
         `🤖 Walk-forward validated across 11 seasons\n` +
         `📐 27 features: Elo, venue, form, H2H, momentum\n\n` +
-        `Live dashboard → [link]\n\n` +
-        `#IPL2026 #MachineLearning #Cricket #DataScience`
+        `Live dashboard → https://huggingface.co/spaces/Shoryamishra61/yorker-ai\n\n` +
+        `#IPL2026 #MachineLearning #Cricket #DataScience #YorkerAI`
     );
     btn.href = `https://twitter.com/intent/tweet?text=${text}`;
 }

@@ -21,7 +21,7 @@ except ImportError:
     sys.exit(1)
 
 
-SPACE_NAME = "ipl-2026-predictions"
+SPACE_NAME = "yorker-ai"
 SPACE_DIR = Path(__file__).parent / "hf_space"
 
 

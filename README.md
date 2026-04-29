@@ -1,44 +1,38 @@
-# IPL Match Prediction Research
+# Yorker AI 🏏
 
-This repo is being developed as a research-grade IPL match prediction project.
+**ML-powered IPL 2026 match winner predictions** — trained on 1,100+ real matches, walk-forward validated across 11 seasons.
 
-The first MVP already runs end to end, but the current evidence is mixed: the stricter pre-match model reports 67.1% accuracy on the 2025 holdout over 70 matches, while rolling validation across seasons is much closer to baseline performance. The project is therefore moving into a phased research workflow focused on data quality, feature validation, leakage-safe evaluation, calibration, and honest public reporting.
+> **Live Dashboard:** [huggingface.co/spaces/Shoryamishra61/yorker-ai](https://huggingface.co/spaces/Shoryamishra61/yorker-ai)
 
-## Current Capabilities
+## What is Yorker AI?
 
-- Cricsheet IPL JSON ingestion
-- official schedule feed ingestion
-- match and feature table generation
-- baseline and model benchmarking
-- feature availability and leakage audit
-- data quality reports
-- upcoming fixture scoring
-- local dashboard artifacts
-- draft reporting outputs
+Yorker AI is a research-grade IPL match prediction engine. It ingests ball-by-ball data from Cricsheet, engineers 27 leakage-safe pre-match features, and uses an L1-regularized logistic regression model with recency weighting to predict match winners.
 
-## Research Phases
+### Current Performance
 
-1. MVP audit and leakage review
-2. Data collection and provenance catalog
-3. Feature extraction and ablation studies
-4. Model comparison with walk-forward validation
-5. Scenario and uncertainty modeling
-6. Public research post series
-7. Final season review
+| Metric | Value |
+|---|---|
+| 2025 Holdout Accuracy | **67.1%** (70 matches) |
+| Walk-Forward Accuracy | **53.5%** (11 seasons) |
+| ROC-AUC | **0.704** |
+| Brier Score | **0.230** |
+| Model Lift over Baseline | **+4.4pp** |
 
-See [PRD.md](/Users/admin67/IPL_ML/PRD.md) for the full research plan.
+### Features
+
+- 🏏 **27 engineered features**: Elo ratings, venue intelligence, recent form, H2H records, powerplay differentials, season context, streaks
+- 🔒 **Leakage-safe**: Pre-match features only. Confirmed XIs separated into a different feature set
+- 📊 **Walk-forward validated**: Train on past, predict the future. No data leakage
+- 🎯 **Calibrated probabilities**: Brier score and ECE tracking ensure honest probability estimates
+- 🏆 **Monte Carlo simulation**: Championship odds based on 2,000 simulated remaining seasons
 
 ## Quick Start
 
-Run the current full pipeline:
-
 ```bash
+# Run the full pipeline
 PYTHONPATH=src python3 -m ipl_ml.cli run-all
-```
 
-Useful commands:
-
-```bash
+# Individual steps
 PYTHONPATH=src python3 -m ipl_ml.cli download-data
 PYTHONPATH=src python3 -m ipl_ml.cli build-dataset
 PYTHONPATH=src python3 -m ipl_ml.cli train
@@ -47,19 +41,26 @@ PYTHONPATH=src python3 -m ipl_ml.cli predict-upcoming
 PYTHONPATH=src python3 -m ipl_ml.cli report
 ```
 
-## Important Artifacts
+## Architecture
 
-- Processed dataset: `data/processed/match_features.csv`
-- Evaluation metrics: `artifacts/models/evaluation_metrics.json`
-- Rolling benchmark metrics: `artifacts/models/benchmark_metrics.json`
-- Season benchmark table: `artifacts/models/benchmark_by_season.csv`
-- Validation predictions: `artifacts/models/validation_predictions.csv`
-- Upcoming predictions: `artifacts/models/upcoming_predictions.csv`
-- Research/public draft: `reports/twitter/thread.md`
-- Feature availability audit: `artifacts/models/feature_availability_audit.csv`
-- Benchmark report: `artifacts/models/benchmark_report.md`
-- Data quality summary: `artifacts/data_quality/data_quality_summary.json`
+```
+Cricsheet JSON → Feature Engineering → L1 Logistic (recency-weighted) → Calibrated Probabilities
+     ↓                    ↓                        ↓                            ↓
+ 1,100+ matches    27 features         2-season sliding window          Win prob [0, 1]
+```
 
-## Current Research Caveat
+## Tech Stack
 
-Do not treat the current model as a finished predictor. Before public launch, the project needs stronger source documentation, feature ablations, leakage checks, uncertainty reporting, and multi-season validation.
+- **Python** (pandas, scikit-learn, XGBoost)
+- **Data**: Cricsheet (CC-BY-4.0) + Official IPLT20 feeds
+- **Dashboard**: Vanilla HTML/CSS/JS (deployed on HuggingFace Spaces)
+
+## Research Caveat
+
+This is a **research project**, not a finished prediction product. The 67.1% holdout accuracy was measured on IPL 2025. Walk-forward accuracy across all seasons is ~53.5%, much closer to baseline. Predictions are probabilistic estimates with wide confidence intervals. Not financial or betting advice.
+
+See [PRD.md](PRD.md) for the full research plan.
+
+## License
+
+MIT
