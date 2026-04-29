@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.6714285714285714,
+  "accuracy_ci95_low": 0.5936236872631155,
+  "accuracy_ci95_high": 0.7492334555940272,
+  "balanced_accuracy": 0.6714285714285714,
+  "precision": 0.6714285714285714,
+  "recall": 0.6714285714285714,
+  "f1": 0.6714285714285714,
+  "brier_score": 0.23026836018408017,
+  "log_loss": 0.6530913475520039,
+  "roc_auc": 0.7042857142857142,
+  "expected_calibration_error": 0.11382317094543935,
+  "mean_confidence": 0.5576054004831321,
+  "fixture_accuracy": 0.6714285714285714,
+  "validation_rows": 140,
+  "validation_matches": 70,
+  "model_name": "recency_l1_logistic",
+  "train_start_season": 2023,
+  "train_end_season": 2024,
+  "train_rows": 288
+}

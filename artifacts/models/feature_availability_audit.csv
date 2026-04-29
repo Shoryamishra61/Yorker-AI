@@ -1,0 +1,83 @@
+feature_set,used_by_selected_model,column,availability,family,allowed_by_feature_set,description
+prematch_core,false,match_id,reference,identity,true,Stable match identifier.
+prematch_core,false,date,reference,identity,true,Scheduled match date.
+prematch_core,true,season,preseason,schedule,true,Tournament season.
+prematch_core,false,venue,match_eve,schedule,true,Scheduled venue.
+prematch_core,false,team_a,match_eve,schedule,true,Perspective team for the row.
+prematch_core,false,team_b,match_eve,schedule,true,Opponent team for the row.
+prematch_core,true,is_playoff,match_eve,schedule,true,Whether fixture is a playoff match.
+prematch_core,true,month,match_eve,schedule,true,Calendar month of fixture.
+prematch_core,false,label,post_match,target,false,Whether team_a won the match.
+prematch_core,true,elo_diff,match_eve,team_strength,true,Pre-match Elo difference.
+prematch_core,true,elo_expected_team_a,match_eve,team_strength,true,Pre-match Elo win probability.
+prematch_core,true,elo_home_expected_team_a,match_eve,team_strength,true,Home-adjusted pre-match Elo probability.
+prematch_core,true,season_win_rate_diff,match_eve,team_form,true,Current-season win-rate difference before match.
+prematch_core,true,season_nrr_diff,match_eve,team_form,true,Current-season run-rate proxy difference before match.
+prematch_core,true,season_runs_for_diff,match_eve,team_form,true,Current-season runs-for average difference before match.
+prematch_core,true,season_runs_against_diff,match_eve,team_form,true,Current-season runs-against average difference before match.
+prematch_core,true,season_matches_played_diff,match_eve,team_form,true,Current-season matches-played difference before match.
+prematch_core,true,current_streak_diff,match_eve,team_form,true,Signed current streak difference before match.
+prematch_core,true,days_since_last_match_diff,match_eve,rest,true,Rest-day difference before match.
+prematch_core,true,recent_win_rate_diff,match_eve,team_form,true,Last-five win-rate difference before match.
+prematch_core,true,historical_win_rate_diff,match_eve,team_strength,true,Historical win-rate difference before match.
+prematch_core,true,recent_nrr_diff,match_eve,team_form,true,Last-five run-rate proxy difference before match.
+prematch_core,true,recent_runs_for_diff,match_eve,team_form,true,Last-five runs-for difference before match.
+prematch_core,true,recent_runs_against_diff,match_eve,team_form,true,Last-five runs-against difference before match.
+prematch_core,true,powerplay_runs_diff,match_eve,phase,true,Recent powerplay scoring difference before match.
+prematch_core,true,powerplay_wickets_diff,match_eve,phase,true,Recent powerplay wickets-lost difference before match.
+prematch_core,true,venue_win_rate_diff,match_eve,venue,true,Team venue win-rate difference before match.
+prematch_core,true,head_to_head_diff,match_eve,head_to_head,true,Historical head-to-head win-rate difference before match.
+prematch_core,false,batting_power_diff,toss_confirmed,player_xi,false,Confirmed-XI batting form difference.
+prematch_core,false,bowling_danger_diff,toss_confirmed,player_xi,false,Confirmed-XI bowling form difference.
+prematch_core,false,xi_experience_diff,toss_confirmed,player_xi,false,Confirmed-XI experience difference.
+prematch_core,false,xi_batting_form_diff,toss_confirmed,player_xi,false,Confirmed-XI batting form difference.
+prematch_core,false,xi_bowling_form_diff,toss_confirmed,player_xi,false,Confirmed-XI bowling form difference.
+prematch_core,false,xi_batting_vs_opponent_diff,toss_confirmed,player_xi,false,Confirmed-XI batter-vs-opponent proxy.
+prematch_core,false,xi_bowling_vs_opponent_diff,toss_confirmed,player_xi,false,Confirmed-XI bowler-vs-opponent proxy.
+prematch_core,true,home_advantage_diff,match_eve,venue,true,Home-venue indicator difference.
+prematch_core,false,known_xi_ratio_diff,toss_confirmed,player_xi,false,Known-player ratio difference in confirmed XI.
+prematch_core,true,venue_avg_first_innings_score,preseason,venue,true,Static venue first-innings scoring prior.
+prematch_core,true,venue_chase_win_pct,preseason,venue,true,Static venue chase-win prior.
+prematch_core,true,venue_spin_bias,preseason,venue,true,Static venue spin-bowling prior.
+prematch_core,true,venue_pace_bias,preseason,venue,true,Static venue pace-bowling prior.
+toss_confirmed_xi,false,match_id,reference,identity,true,Stable match identifier.
+toss_confirmed_xi,false,date,reference,identity,true,Scheduled match date.
+toss_confirmed_xi,true,season,preseason,schedule,true,Tournament season.
+toss_confirmed_xi,false,venue,match_eve,schedule,true,Scheduled venue.
+toss_confirmed_xi,false,team_a,match_eve,schedule,true,Perspective team for the row.
+toss_confirmed_xi,false,team_b,match_eve,schedule,true,Opponent team for the row.
+toss_confirmed_xi,true,is_playoff,match_eve,schedule,true,Whether fixture is a playoff match.
+toss_confirmed_xi,true,month,match_eve,schedule,true,Calendar month of fixture.
+toss_confirmed_xi,false,label,post_match,target,false,Whether team_a won the match.
+toss_confirmed_xi,true,elo_diff,match_eve,team_strength,true,Pre-match Elo difference.
+toss_confirmed_xi,true,elo_expected_team_a,match_eve,team_strength,true,Pre-match Elo win probability.
+toss_confirmed_xi,true,elo_home_expected_team_a,match_eve,team_strength,true,Home-adjusted pre-match Elo probability.
+toss_confirmed_xi,true,season_win_rate_diff,match_eve,team_form,true,Current-season win-rate difference before match.
+toss_confirmed_xi,true,season_nrr_diff,match_eve,team_form,true,Current-season run-rate proxy difference before match.
+toss_confirmed_xi,true,season_runs_for_diff,match_eve,team_form,true,Current-season runs-for average difference before match.
+toss_confirmed_xi,true,season_runs_against_diff,match_eve,team_form,true,Current-season runs-against average difference before match.
+toss_confirmed_xi,true,season_matches_played_diff,match_eve,team_form,true,Current-season matches-played difference before match.
+toss_confirmed_xi,true,current_streak_diff,match_eve,team_form,true,Signed current streak difference before match.
+toss_confirmed_xi,true,days_since_last_match_diff,match_eve,rest,true,Rest-day difference before match.
+toss_confirmed_xi,true,recent_win_rate_diff,match_eve,team_form,true,Last-five win-rate difference before match.
+toss_confirmed_xi,true,historical_win_rate_diff,match_eve,team_strength,true,Historical win-rate difference before match.
+toss_confirmed_xi,true,recent_nrr_diff,match_eve,team_form,true,Last-five run-rate proxy difference before match.
+toss_confirmed_xi,true,recent_runs_for_diff,match_eve,team_form,true,Last-five runs-for difference before match.
+toss_confirmed_xi,true,recent_runs_against_diff,match_eve,team_form,true,Last-five runs-against difference before match.
+toss_confirmed_xi,true,powerplay_runs_diff,match_eve,phase,true,Recent powerplay scoring difference before match.
+toss_confirmed_xi,true,powerplay_wickets_diff,match_eve,phase,true,Recent powerplay wickets-lost difference before match.
+toss_confirmed_xi,true,venue_win_rate_diff,match_eve,venue,true,Team venue win-rate difference before match.
+toss_confirmed_xi,true,head_to_head_diff,match_eve,head_to_head,true,Historical head-to-head win-rate difference before match.
+toss_confirmed_xi,true,batting_power_diff,toss_confirmed,player_xi,true,Confirmed-XI batting form difference.
+toss_confirmed_xi,true,bowling_danger_diff,toss_confirmed,player_xi,true,Confirmed-XI bowling form difference.
+toss_confirmed_xi,true,xi_experience_diff,toss_confirmed,player_xi,true,Confirmed-XI experience difference.
+toss_confirmed_xi,true,xi_batting_form_diff,toss_confirmed,player_xi,true,Confirmed-XI batting form difference.
+toss_confirmed_xi,true,xi_bowling_form_diff,toss_confirmed,player_xi,true,Confirmed-XI bowling form difference.
+toss_confirmed_xi,true,xi_batting_vs_opponent_diff,toss_confirmed,player_xi,true,Confirmed-XI batter-vs-opponent proxy.
+toss_confirmed_xi,true,xi_bowling_vs_opponent_diff,toss_confirmed,player_xi,true,Confirmed-XI bowler-vs-opponent proxy.
+toss_confirmed_xi,true,home_advantage_diff,match_eve,venue,true,Home-venue indicator difference.
+toss_confirmed_xi,true,known_xi_ratio_diff,toss_confirmed,player_xi,true,Known-player ratio difference in confirmed XI.
+toss_confirmed_xi,true,venue_avg_first_innings_score,preseason,venue,true,Static venue first-innings scoring prior.
+toss_confirmed_xi,true,venue_chase_win_pct,preseason,venue,true,Static venue chase-win prior.
+toss_confirmed_xi,true,venue_spin_bias,preseason,venue,true,Static venue spin-bowling prior.
+toss_confirmed_xi,true,venue_pace_bias,preseason,venue,true,Static venue pace-bowling prior.

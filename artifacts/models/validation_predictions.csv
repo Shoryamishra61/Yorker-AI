@@ -1,0 +1,141 @@
+match_id,date,season,team_a,team_b,venue,label,predicted_prob_team_a,predicted_label
+1473438,2025-03-22,2025,Kolkata Knight Riders,Royal Challengers Bengaluru,Eden Gardens,0,0.39721954733721004,0
+1473438,2025-03-22,2025,Royal Challengers Bengaluru,Kolkata Knight Riders,Eden Gardens,1,0.6027804526627899,1
+1473439,2025-03-23,2025,Rajasthan Royals,Sunrisers Hyderabad,Rajiv Gandhi International Cricket Stadium,0,0.43664512796016686,0
+1473439,2025-03-23,2025,Sunrisers Hyderabad,Rajasthan Royals,Rajiv Gandhi International Cricket Stadium,1,0.5633548720398331,1
+1473440,2025-03-23,2025,Chennai Super Kings,Mumbai Indians,M.A. Chidambaram Stadium,1,0.49544447910383493,0
+1473440,2025-03-23,2025,Mumbai Indians,Chennai Super Kings,M.A. Chidambaram Stadium,0,0.5045555208961652,1
+1473441,2025-03-24,2025,Delhi Capitals,Lucknow Super Giants,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,1,0.583420278913132,1
+1473441,2025-03-24,2025,Lucknow Super Giants,Delhi Capitals,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,0,0.416579721086868,0
+1473442,2025-03-25,2025,Gujarat Titans,Punjab Kings,Narendra Modi Stadium,0,0.44496480837974745,0
+1473442,2025-03-25,2025,Punjab Kings,Gujarat Titans,Narendra Modi Stadium,1,0.5550351916202525,1
+1473443,2025-03-26,2025,Kolkata Knight Riders,Rajasthan Royals,"Barsapara Cricket Stadium, Guwahati",1,0.5621382041659606,1
+1473443,2025-03-26,2025,Rajasthan Royals,Kolkata Knight Riders,"Barsapara Cricket Stadium, Guwahati",0,0.4378617958340394,0
+1473444,2025-03-27,2025,Lucknow Super Giants,Sunrisers Hyderabad,Rajiv Gandhi International Cricket Stadium,1,0.47447111425307864,0
+1473444,2025-03-27,2025,Sunrisers Hyderabad,Lucknow Super Giants,Rajiv Gandhi International Cricket Stadium,0,0.5255288857469214,1
+1473445,2025-03-28,2025,Chennai Super Kings,Royal Challengers Bengaluru,M.A. Chidambaram Stadium,0,0.4759131256897196,0
+1473445,2025-03-28,2025,Royal Challengers Bengaluru,Chennai Super Kings,M.A. Chidambaram Stadium,1,0.5240868743102804,1
+1473446,2025-03-29,2025,Gujarat Titans,Mumbai Indians,Narendra Modi Stadium,1,0.4498289501549559,0
+1473446,2025-03-29,2025,Mumbai Indians,Gujarat Titans,Narendra Modi Stadium,0,0.5501710498450442,1
+1473447,2025-03-30,2025,Delhi Capitals,Sunrisers Hyderabad,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,1,0.5655706986295926,1
+1473447,2025-03-30,2025,Sunrisers Hyderabad,Delhi Capitals,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,0,0.4344293013704074,0
+1473448,2025-03-30,2025,Chennai Super Kings,Rajasthan Royals,"Barsapara Cricket Stadium, Guwahati",0,0.4602008681868789,0
+1473448,2025-03-30,2025,Rajasthan Royals,Chennai Super Kings,"Barsapara Cricket Stadium, Guwahati",1,0.5397991318131211,1
+1473449,2025-03-31,2025,Kolkata Knight Riders,Mumbai Indians,Wankhede Stadium,0,0.45489425213037693,0
+1473449,2025-03-31,2025,Mumbai Indians,Kolkata Knight Riders,Wankhede Stadium,1,0.5451057478696231,1
+1473450,2025-04-01,2025,Lucknow Super Giants,Punjab Kings,Ekana Cricket Stadium,0,0.3836519819606626,0
+1473450,2025-04-01,2025,Punjab Kings,Lucknow Super Giants,Ekana Cricket Stadium,1,0.6163480180393374,1
+1473451,2025-04-02,2025,Gujarat Titans,Royal Challengers Bengaluru,M. Chinnaswamy Stadium,1,0.47096796836668975,0
+1473451,2025-04-02,2025,Royal Challengers Bengaluru,Gujarat Titans,M. Chinnaswamy Stadium,0,0.5290320316333103,1
+1473452,2025-04-03,2025,Kolkata Knight Riders,Sunrisers Hyderabad,Eden Gardens,1,0.4981816400149616,0
+1473452,2025-04-03,2025,Sunrisers Hyderabad,Kolkata Knight Riders,Eden Gardens,0,0.5018183599850383,1
+1473453,2025-04-04,2025,Lucknow Super Giants,Mumbai Indians,Ekana Cricket Stadium,1,0.553871094916589,1
+1473453,2025-04-04,2025,Mumbai Indians,Lucknow Super Giants,Ekana Cricket Stadium,0,0.44612890508341096,0
+1473454,2025-04-05,2025,Chennai Super Kings,Delhi Capitals,M.A. Chidambaram Stadium,0,0.4586165678179793,0
+1473454,2025-04-05,2025,Delhi Capitals,Chennai Super Kings,M.A. Chidambaram Stadium,1,0.5413834321820207,1
+1473455,2025-04-05,2025,Punjab Kings,Rajasthan Royals,Maharaja Yadavindra Singh International Cricket Stadium,0,0.5968936643953142,1
+1473455,2025-04-05,2025,Rajasthan Royals,Punjab Kings,Maharaja Yadavindra Singh International Cricket Stadium,1,0.4031063356046858,0
+1473457,2025-04-06,2025,Gujarat Titans,Sunrisers Hyderabad,Rajiv Gandhi International Cricket Stadium,1,0.5307252918717195,1
+1473457,2025-04-06,2025,Sunrisers Hyderabad,Gujarat Titans,Rajiv Gandhi International Cricket Stadium,0,0.46927470812828054,0
+1473458,2025-04-07,2025,Mumbai Indians,Royal Challengers Bengaluru,Wankhede Stadium,0,0.38813624120680557,0
+1473458,2025-04-07,2025,Royal Challengers Bengaluru,Mumbai Indians,Wankhede Stadium,1,0.6118637587931943,1
+1473456,2025-04-08,2025,Kolkata Knight Riders,Lucknow Super Giants,Eden Gardens,0,0.49432680262649714,0
+1473456,2025-04-08,2025,Lucknow Super Giants,Kolkata Knight Riders,Eden Gardens,1,0.5056731973735028,1
+1473459,2025-04-08,2025,Chennai Super Kings,Punjab Kings,Maharaja Yadavindra Singh International Cricket Stadium,0,0.4115439214682275,0
+1473459,2025-04-08,2025,Punjab Kings,Chennai Super Kings,Maharaja Yadavindra Singh International Cricket Stadium,1,0.5884560785317725,1
+1473460,2025-04-09,2025,Gujarat Titans,Rajasthan Royals,Narendra Modi Stadium,1,0.5006394521266117,1
+1473460,2025-04-09,2025,Rajasthan Royals,Gujarat Titans,Narendra Modi Stadium,0,0.49936054787338824,0
+1473461,2025-04-10,2025,Delhi Capitals,Royal Challengers Bengaluru,M. Chinnaswamy Stadium,1,0.5291803070895431,1
+1473461,2025-04-10,2025,Royal Challengers Bengaluru,Delhi Capitals,M. Chinnaswamy Stadium,0,0.47081969291045694,0
+1473462,2025-04-11,2025,Chennai Super Kings,Kolkata Knight Riders,M.A. Chidambaram Stadium,0,0.5273215119342916,1
+1473462,2025-04-11,2025,Kolkata Knight Riders,Chennai Super Kings,M.A. Chidambaram Stadium,1,0.47267848806570834,0
+1473463,2025-04-12,2025,Gujarat Titans,Lucknow Super Giants,Ekana Cricket Stadium,0,0.4725794399626197,0
+1473463,2025-04-12,2025,Lucknow Super Giants,Gujarat Titans,Ekana Cricket Stadium,1,0.5274205600373804,1
+1473464,2025-04-12,2025,Punjab Kings,Sunrisers Hyderabad,Rajiv Gandhi International Cricket Stadium,0,0.5358477084930049,1
+1473464,2025-04-12,2025,Sunrisers Hyderabad,Punjab Kings,Rajiv Gandhi International Cricket Stadium,1,0.46415229150699516,0
+1473465,2025-04-13,2025,Rajasthan Royals,Royal Challengers Bengaluru,Sawai Mansingh Stadium,0,0.48273307360344553,0
+1473465,2025-04-13,2025,Royal Challengers Bengaluru,Rajasthan Royals,Sawai Mansingh Stadium,1,0.5172669263965546,1
+1473466,2025-04-13,2025,Delhi Capitals,Mumbai Indians,Arun Jaitley Stadium,0,0.4842388512542565,0
+1473466,2025-04-13,2025,Mumbai Indians,Delhi Capitals,Arun Jaitley Stadium,1,0.5157611487457435,1
+1473467,2025-04-14,2025,Chennai Super Kings,Lucknow Super Giants,Ekana Cricket Stadium,1,0.566815550134743,1
+1473467,2025-04-14,2025,Lucknow Super Giants,Chennai Super Kings,Ekana Cricket Stadium,0,0.4331844498652569,0
+1473468,2025-04-15,2025,Kolkata Knight Riders,Punjab Kings,Maharaja Yadavindra Singh International Cricket Stadium,0,0.3740650669791126,0
+1473468,2025-04-15,2025,Punjab Kings,Kolkata Knight Riders,Maharaja Yadavindra Singh International Cricket Stadium,1,0.6259349330208874,1
+1473470,2025-04-17,2025,Mumbai Indians,Sunrisers Hyderabad,Wankhede Stadium,1,0.52703239858393,1
+1473470,2025-04-17,2025,Sunrisers Hyderabad,Mumbai Indians,Wankhede Stadium,0,0.47296760141606997,0
+1473471,2025-04-18,2025,Punjab Kings,Royal Challengers Bengaluru,M. Chinnaswamy Stadium,1,0.5042786786628256,1
+1473471,2025-04-18,2025,Royal Challengers Bengaluru,Punjab Kings,M. Chinnaswamy Stadium,0,0.49572132133717445,0
+1473472,2025-04-19,2025,Delhi Capitals,Gujarat Titans,Narendra Modi Stadium,0,0.5063026475444116,1
+1473472,2025-04-19,2025,Gujarat Titans,Delhi Capitals,Narendra Modi Stadium,1,0.49369735245558843,0
+1473473,2025-04-19,2025,Lucknow Super Giants,Rajasthan Royals,Sawai Mansingh Stadium,1,0.49991520983854304,0
+1473473,2025-04-19,2025,Rajasthan Royals,Lucknow Super Giants,Sawai Mansingh Stadium,0,0.500084790161457,1
+1473474,2025-04-20,2025,Punjab Kings,Royal Challengers Bengaluru,Maharaja Yadavindra Singh International Cricket Stadium,0,0.4601975147314309,0
+1473474,2025-04-20,2025,Royal Challengers Bengaluru,Punjab Kings,Maharaja Yadavindra Singh International Cricket Stadium,1,0.5398024852685691,1
+1473475,2025-04-20,2025,Chennai Super Kings,Mumbai Indians,Wankhede Stadium,0,0.4635456200530729,0
+1473475,2025-04-20,2025,Mumbai Indians,Chennai Super Kings,Wankhede Stadium,1,0.536454379946927,1
+1473476,2025-04-21,2025,Gujarat Titans,Kolkata Knight Riders,Eden Gardens,1,0.453115507304684,0
+1473476,2025-04-21,2025,Kolkata Knight Riders,Gujarat Titans,Eden Gardens,0,0.546884492695316,1
+1473477,2025-04-22,2025,Delhi Capitals,Lucknow Super Giants,Ekana Cricket Stadium,1,0.6731847663364348,1
+1473477,2025-04-22,2025,Lucknow Super Giants,Delhi Capitals,Ekana Cricket Stadium,0,0.32681523366356524,0
+1473478,2025-04-23,2025,Mumbai Indians,Sunrisers Hyderabad,Rajiv Gandhi International Cricket Stadium,1,0.375023070458023,0
+1473478,2025-04-23,2025,Sunrisers Hyderabad,Mumbai Indians,Rajiv Gandhi International Cricket Stadium,0,0.624976929541977,1
+1473479,2025-04-24,2025,Rajasthan Royals,Royal Challengers Bengaluru,M. Chinnaswamy Stadium,0,0.5410762297100634,1
+1473479,2025-04-24,2025,Royal Challengers Bengaluru,Rajasthan Royals,M. Chinnaswamy Stadium,1,0.45892377028993653,0
+1473480,2025-04-25,2025,Chennai Super Kings,Sunrisers Hyderabad,M.A. Chidambaram Stadium,0,0.47859855834849535,0
+1473480,2025-04-25,2025,Sunrisers Hyderabad,Chennai Super Kings,M.A. Chidambaram Stadium,1,0.5214014416515046,1
+1473482,2025-04-27,2025,Lucknow Super Giants,Mumbai Indians,Wankhede Stadium,0,0.5643249110595485,1
+1473482,2025-04-27,2025,Mumbai Indians,Lucknow Super Giants,Wankhede Stadium,1,0.4356750889404514,0
+1473483,2025-04-27,2025,Delhi Capitals,Royal Challengers Bengaluru,Arun Jaitley Stadium,0,0.6314828033007072,1
+1473483,2025-04-27,2025,Royal Challengers Bengaluru,Delhi Capitals,Arun Jaitley Stadium,1,0.3685171966992929,0
+1473484,2025-04-28,2025,Gujarat Titans,Rajasthan Royals,Sawai Mansingh Stadium,0,0.5444967562516925,1
+1473484,2025-04-28,2025,Rajasthan Royals,Gujarat Titans,Sawai Mansingh Stadium,1,0.4555032437483075,0
+1473485,2025-04-29,2025,Delhi Capitals,Kolkata Knight Riders,Arun Jaitley Stadium,0,0.48272413160872374,0
+1473485,2025-04-29,2025,Kolkata Knight Riders,Delhi Capitals,Arun Jaitley Stadium,1,0.5172758683912762,1
+1473486,2025-04-30,2025,Chennai Super Kings,Punjab Kings,M.A. Chidambaram Stadium,0,0.43491610827763794,0
+1473486,2025-04-30,2025,Punjab Kings,Chennai Super Kings,M.A. Chidambaram Stadium,1,0.5650838917223621,1
+1473487,2025-05-01,2025,Mumbai Indians,Rajasthan Royals,Sawai Mansingh Stadium,1,0.4865451027350409,0
+1473487,2025-05-01,2025,Rajasthan Royals,Mumbai Indians,Sawai Mansingh Stadium,0,0.513454897264959,1
+1473488,2025-05-02,2025,Gujarat Titans,Sunrisers Hyderabad,Narendra Modi Stadium,1,0.5802798301890567,1
+1473488,2025-05-02,2025,Sunrisers Hyderabad,Gujarat Titans,Narendra Modi Stadium,0,0.41972016981094323,0
+1473489,2025-05-03,2025,Chennai Super Kings,Royal Challengers Bengaluru,M. Chinnaswamy Stadium,0,0.5765347179957772,1
+1473489,2025-05-03,2025,Royal Challengers Bengaluru,Chennai Super Kings,M. Chinnaswamy Stadium,1,0.4234652820042229,0
+1473490,2025-05-04,2025,Kolkata Knight Riders,Rajasthan Royals,Eden Gardens,1,0.5723289697176626,1
+1473490,2025-05-04,2025,Rajasthan Royals,Kolkata Knight Riders,Eden Gardens,0,0.4276710302823374,0
+1473491,2025-05-04,2025,Lucknow Super Giants,Punjab Kings,HPCA Cricket Stadium,0,0.5291994014858586,1
+1473491,2025-05-04,2025,Punjab Kings,Lucknow Super Giants,HPCA Cricket Stadium,1,0.47080059851414124,0
+1473493,2025-05-06,2025,Gujarat Titans,Mumbai Indians,Wankhede Stadium,1,0.6536219757060014,1
+1473493,2025-05-06,2025,Mumbai Indians,Gujarat Titans,Wankhede Stadium,0,0.3463780242939986,0
+1473494,2025-05-07,2025,Chennai Super Kings,Kolkata Knight Riders,Eden Gardens,1,0.6320037562271515,1
+1473494,2025-05-07,2025,Kolkata Knight Riders,Chennai Super Kings,Eden Gardens,0,0.36799624377284845,0
+1473497,2025-05-18,2025,Punjab Kings,Rajasthan Royals,Sawai Mansingh Stadium,1,0.5199048816838951,1
+1473497,2025-05-18,2025,Rajasthan Royals,Punjab Kings,Sawai Mansingh Stadium,0,0.4800951183161049,0
+1473498,2025-05-18,2025,Delhi Capitals,Gujarat Titans,Arun Jaitley Stadium,0,0.6607825631670327,1
+1473498,2025-05-18,2025,Gujarat Titans,Delhi Capitals,Arun Jaitley Stadium,1,0.3392174368329673,0
+1473499,2025-05-19,2025,Lucknow Super Giants,Sunrisers Hyderabad,Ekana Cricket Stadium,0,0.43240001801079025,0
+1473499,2025-05-19,2025,Sunrisers Hyderabad,Lucknow Super Giants,Ekana Cricket Stadium,1,0.5675999819892097,1
+1473500,2025-05-20,2025,Chennai Super Kings,Rajasthan Royals,Arun Jaitley Stadium,0,0.4777486546964249,0
+1473500,2025-05-20,2025,Rajasthan Royals,Chennai Super Kings,Arun Jaitley Stadium,1,0.5222513453035751,1
+1473501,2025-05-21,2025,Delhi Capitals,Mumbai Indians,Wankhede Stadium,0,0.5761840689158694,1
+1473501,2025-05-21,2025,Mumbai Indians,Delhi Capitals,Wankhede Stadium,1,0.42381593108413057,0
+1473502,2025-05-22,2025,Gujarat Titans,Lucknow Super Giants,Narendra Modi Stadium,0,0.4057782978182241,0
+1473502,2025-05-22,2025,Lucknow Super Giants,Gujarat Titans,Narendra Modi Stadium,1,0.5942217021817758,1
+1473503,2025-05-23,2025,Royal Challengers Bengaluru,Sunrisers Hyderabad,Ekana Cricket Stadium,0,0.4659625319808328,0
+1473503,2025-05-23,2025,Sunrisers Hyderabad,Royal Challengers Bengaluru,Ekana Cricket Stadium,1,0.5340374680191671,1
+1485779,2025-05-24,2025,Delhi Capitals,Punjab Kings,Sawai Mansingh Stadium,1,0.5856490245270993,1
+1485779,2025-05-24,2025,Punjab Kings,Delhi Capitals,Sawai Mansingh Stadium,0,0.41435097547290073,0
+1473504,2025-05-25,2025,Chennai Super Kings,Gujarat Titans,Narendra Modi Stadium,1,0.49321926699810203,0
+1473504,2025-05-25,2025,Gujarat Titans,Chennai Super Kings,Narendra Modi Stadium,0,0.506780733001898,1
+1473505,2025-05-25,2025,Kolkata Knight Riders,Sunrisers Hyderabad,Arun Jaitley Stadium,0,0.5400373635559386,1
+1473505,2025-05-25,2025,Sunrisers Hyderabad,Kolkata Knight Riders,Arun Jaitley Stadium,1,0.45996263644406155,0
+1473506,2025-05-26,2025,Mumbai Indians,Punjab Kings,Sawai Mansingh Stadium,0,0.4871607668255691,0
+1473506,2025-05-26,2025,Punjab Kings,Mumbai Indians,Sawai Mansingh Stadium,1,0.5128392331744309,1
+1473507,2025-05-27,2025,Lucknow Super Giants,Royal Challengers Bengaluru,Ekana Cricket Stadium,0,0.3462240815934112,0
+1473507,2025-05-27,2025,Royal Challengers Bengaluru,Lucknow Super Giants,Ekana Cricket Stadium,1,0.6537759184065888,1
+1473508,2025-05-29,2025,Punjab Kings,Royal Challengers Bengaluru,Maharaja Yadavindra Singh International Cricket Stadium,0,0.4029952739355448,0
+1473508,2025-05-29,2025,Royal Challengers Bengaluru,Punjab Kings,Maharaja Yadavindra Singh International Cricket Stadium,1,0.5970047260644552,1
+1473509,2025-05-30,2025,Gujarat Titans,Mumbai Indians,Maharaja Yadavindra Singh International Cricket Stadium,0,0.48038441943877297,0
+1473509,2025-05-30,2025,Mumbai Indians,Gujarat Titans,Maharaja Yadavindra Singh International Cricket Stadium,1,0.5196155805612269,1
+1473510,2025-06-01,2025,Mumbai Indians,Punjab Kings,Narendra Modi Stadium,0,0.49954378565011154,0
+1473510,2025-06-01,2025,Punjab Kings,Mumbai Indians,Narendra Modi Stadium,1,0.5004562143498885,1
+1473511,2025-06-03,2025,Punjab Kings,Royal Challengers Bengaluru,Narendra Modi Stadium,0,0.3041297247115465,0
+1473511,2025-06-03,2025,Royal Challengers Bengaluru,Punjab Kings,Narendra Modi Stadium,1,0.6958702752884535,1

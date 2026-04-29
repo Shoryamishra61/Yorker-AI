@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data (large files — keep structure but not raw data)
+data/raw/cricsheet_ipl_json/
+data/raw/*.json
+data/raw/*.zip
+data/raw/*.csv
+data/processed/*.csv
+data/reference/*.csv
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+
+# Models (binary files)
+artifacts/models/*.joblib
+models/*.joblib
+
+# Notebooks
+notebooks/.ipynb_checkpoints/
+
+# OS
+Thumbs.db

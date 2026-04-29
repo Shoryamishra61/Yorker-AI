@@ -1,0 +1,197 @@
+{
+  "metrics": {
+    "accuracy": 0.6714285714285714,
+    "accuracy_ci95_low": 0.5936236872631155,
+    "accuracy_ci95_high": 0.7492334555940272,
+    "balanced_accuracy": 0.6714285714285714,
+    "precision": 0.6714285714285714,
+    "recall": 0.6714285714285714,
+    "f1": 0.6714285714285714,
+    "brier_score": 0.23026836018408017,
+    "log_loss": 0.6530913475520039,
+    "roc_auc": 0.7042857142857142,
+    "expected_calibration_error": 0.11382317094543935,
+    "mean_confidence": 0.5576054004831321,
+    "fixture_accuracy": 0.6714285714285714,
+    "validation_rows": 140,
+    "validation_matches": 70,
+    "model_name": "recency_l1_logistic",
+    "train_start_season": 2023,
+    "train_end_season": 2024,
+    "train_rows": 288
+  },
+  "upcoming_head": [
+    {
+      "match_id": "2474",
+      "date": "2026-04-24 00:00:00",
+      "season": 2026,
+      "team_a": "Royal Challengers Bengaluru",
+      "team_b": "Gujarat Titans",
+      "venue": "M. Chinnaswamy Stadium",
+      "predicted_prob_team_a": 0.4956406140125575,
+      "predicted_prob_team_b": 0.5043593859874425,
+      "predicted_winner": "Gujarat Titans",
+      "confidence": 0.5043593859874425
+    },
+    {
+      "match_id": "2475",
+      "date": "2026-04-25 00:00:00",
+      "season": 2026,
+      "team_a": "Delhi Capitals",
+      "team_b": "Punjab Kings",
+      "venue": "Arun Jaitley Stadium",
+      "predicted_prob_team_a": 0.3519222524564975,
+      "predicted_prob_team_b": 0.6480777475435024,
+      "predicted_winner": "Punjab Kings",
+      "confidence": 0.6480777475435024
+    },
+    {
+      "match_id": "2476",
+      "date": "2026-04-25 00:00:00",
+      "season": 2026,
+      "team_a": "Rajasthan Royals",
+      "team_b": "Sunrisers Hyderabad",
+      "venue": "Sawai Mansingh Stadium",
+      "predicted_prob_team_a": 0.515473491213375,
+      "predicted_prob_team_b": 0.48452650878662495,
+      "predicted_winner": "Rajasthan Royals",
+      "confidence": 0.515473491213375
+    },
+    {
+      "match_id": "2477",
+      "date": "2026-04-26 00:00:00",
+      "season": 2026,
+      "team_a": "Chennai Super Kings",
+      "team_b": "Gujarat Titans",
+      "venue": "M.A. Chidambaram Stadium",
+      "predicted_prob_team_a": 0.4193365919984575,
+      "predicted_prob_team_b": 0.5806634080015425,
+      "predicted_winner": "Gujarat Titans",
+      "confidence": 0.5806634080015425
+    },
+    {
+      "match_id": "2478",
+      "date": "2026-04-26 00:00:00",
+      "season": 2026,
+      "team_a": "Lucknow Super Giants",
+      "team_b": "Kolkata Knight Riders",
+      "venue": "Ekana Cricket Stadium",
+      "predicted_prob_team_a": 0.3832375949174146,
+      "predicted_prob_team_b": 0.6167624050825854,
+      "predicted_winner": "Kolkata Knight Riders",
+      "confidence": 0.6167624050825854
+    },
+    {
+      "match_id": "2479",
+      "date": "2026-04-27 00:00:00",
+      "season": 2026,
+      "team_a": "Delhi Capitals",
+      "team_b": "Royal Challengers Bengaluru",
+      "venue": "Arun Jaitley Stadium",
+      "predicted_prob_team_a": 0.423237326463776,
+      "predicted_prob_team_b": 0.576762673536224,
+      "predicted_winner": "Royal Challengers Bengaluru",
+      "confidence": 0.576762673536224
+    },
+    {
+      "match_id": "2480",
+      "date": "2026-04-28 00:00:00",
+      "season": 2026,
+      "team_a": "Punjab Kings",
+      "team_b": "Rajasthan Royals",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+      "predicted_prob_team_a": 0.5471987364894242,
+      "predicted_prob_team_b": 0.4528012635105758,
+      "predicted_winner": "Punjab Kings",
+      "confidence": 0.5471987364894242
+    },
+    {
+      "match_id": "2481",
+      "date": "2026-04-29 00:00:00",
+      "season": 2026,
+      "team_a": "Mumbai Indians",
+      "team_b": "Sunrisers Hyderabad",
+      "venue": "Wankhede Stadium",
+      "predicted_prob_team_a": 0.44938148733573263,
+      "predicted_prob_team_b": 0.5506185126642673,
+      "predicted_winner": "Sunrisers Hyderabad",
+      "confidence": 0.5506185126642673
+    },
+    {
+      "match_id": "2482",
+      "date": "2026-04-30 00:00:00",
+      "season": 2026,
+      "team_a": "Gujarat Titans",
+      "team_b": "Royal Challengers Bengaluru",
+      "venue": "Narendra Modi Stadium",
+      "predicted_prob_team_a": 0.4518079117193308,
+      "predicted_prob_team_b": 0.5481920882806692,
+      "predicted_winner": "Royal Challengers Bengaluru",
+      "confidence": 0.5481920882806692
+    },
+    {
+      "match_id": "2483",
+      "date": "2026-05-01 00:00:00",
+      "season": 2026,
+      "team_a": "Rajasthan Royals",
+      "team_b": "Delhi Capitals",
+      "venue": "Sawai Mansingh Stadium",
+      "predicted_prob_team_a": 0.5195050901923133,
+      "predicted_prob_team_b": 0.4804949098076867,
+      "predicted_winner": "Rajasthan Royals",
+      "confidence": 0.5195050901923133
+    }
+  ],
+  "season_simulation_head": [
+    {
+      "team": "Punjab Kings",
+      "top4_probability": 0.971,
+      "champion_probability": 0.448
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "top4_probability": 0.9225,
+      "champion_probability": 0.2515
+    },
+    {
+      "team": "Rajasthan Royals",
+      "top4_probability": 0.791,
+      "champion_probability": 0.1555
+    },
+    {
+      "team": "Gujarat Titans",
+      "top4_probability": 0.346,
+      "champion_probability": 0.0445
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "top4_probability": 0.3055,
+      "champion_probability": 0.0305
+    },
+    {
+      "team": "Chennai Super Kings",
+      "top4_probability": 0.2825,
+      "champion_probability": 0.03
+    },
+    {
+      "team": "Delhi Capitals",
+      "top4_probability": 0.176,
+      "champion_probability": 0.022
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "top4_probability": 0.115,
+      "champion_probability": 0.0085
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "top4_probability": 0.0595,
+      "champion_probability": 0.006
+    },
+    {
+      "team": "Mumbai Indians",
+      "top4_probability": 0.031,
+      "champion_probability": 0.0035
+    }
+  ]
+}

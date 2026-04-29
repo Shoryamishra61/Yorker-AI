@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipl-ml"
+version = "0.1.0"
+description = "Research-grade IPL match prediction pipeline with historical ingestion, feature engineering, validation, and reporting."
+requires-python = ">=3.9"
+dependencies = [
+  "joblib>=1.3",
+  "matplotlib>=3.7",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "requests>=2.31",
+  "scikit-learn>=1.3",
+  "xgboost>=2.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

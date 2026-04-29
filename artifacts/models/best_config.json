@@ -1,0 +1,8 @@
+{
+  "name": "LR_C0.1_w2",
+  "window": 2,
+  "train_rows": 288,
+  "accuracy": 0.6714285714285714,
+  "fixture_accuracy": 0.6714285714285714,
+  "roc_auc": 0.7014285714285714
+}

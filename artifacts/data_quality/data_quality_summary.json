@@ -1,0 +1,206 @@
+{
+  "dataset_rows": 2338,
+  "dataset_matches": 1169,
+  "match_table_rows": 1193,
+  "match_table_matches": 1193,
+  "duplicate_dataset_rows": 0,
+  "duplicate_match_table_ids": 0,
+  "missing_labels": 0,
+  "seasons": [
+    {
+      "season": 2008,
+      "matches": 58,
+      "completed_matches": 58,
+      "unique_venues": 9,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2009,
+      "matches": 57,
+      "completed_matches": 56,
+      "unique_venues": 8,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2010,
+      "matches": 60,
+      "completed_matches": 59,
+      "unique_venues": 13,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2011,
+      "matches": 73,
+      "completed_matches": 72,
+      "unique_venues": 12,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2012,
+      "matches": 74,
+      "completed_matches": 74,
+      "unique_venues": 12,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2013,
+      "matches": 76,
+      "completed_matches": 74,
+      "unique_venues": 13,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2014,
+      "matches": 60,
+      "completed_matches": 59,
+      "unique_venues": 13,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2015,
+      "matches": 59,
+      "completed_matches": 56,
+      "unique_venues": 13,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2016,
+      "matches": 60,
+      "completed_matches": 60,
+      "unique_venues": 11,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2017,
+      "matches": 59,
+      "completed_matches": 58,
+      "unique_venues": 10,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2018,
+      "matches": 60,
+      "completed_matches": 60,
+      "unique_venues": 10,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2019,
+      "matches": 60,
+      "completed_matches": 57,
+      "unique_venues": 9,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2020,
+      "matches": 60,
+      "completed_matches": 56,
+      "unique_venues": 3,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2021,
+      "matches": 60,
+      "completed_matches": 59,
+      "unique_venues": 7,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2022,
+      "matches": 74,
+      "completed_matches": 74,
+      "unique_venues": 6,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2023,
+      "matches": 74,
+      "completed_matches": 73,
+      "unique_venues": 12,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2024,
+      "matches": 71,
+      "completed_matches": 71,
+      "unique_venues": 13,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2025,
+      "matches": 74,
+      "completed_matches": 70,
+      "unique_venues": 13,
+      "duplicate_match_ids": 0
+    },
+    {
+      "season": 2026,
+      "matches": 24,
+      "completed_matches": 23,
+      "unique_venues": 10,
+      "duplicate_match_ids": 0
+    }
+  ],
+  "highest_missingness": [
+    {
+      "column": "batting_power_diff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "bowling_danger_diff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "current_streak_diff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "date",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "days_since_last_match_diff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "elo_diff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "elo_expected_team_a",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "elo_home_expected_team_a",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "head_to_head_diff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "historical_win_rate_diff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "home_advantage_diff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "is_playoff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "known_xi_ratio_diff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "label",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "match_id",
+      "missing_rate": 0.0
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "Royal Challengers Bengaluru vs Gujarat Titans": [
+    {
+      "feature": "num__season_matches_played_diff",
+      "contribution": -0.5972257767505224
+    },
+    {
+      "feature": "num__season_runs_for_diff",
+      "contribution": -0.5112788182833048
+    },
+    {
+      "feature": "num__historical_win_rate_diff",
+      "contribution": 0.41699826035992893
+    },
+    {
+      "feature": "num__recent_runs_for_diff",
+      "contribution": 0.3865851861345789
+    },
+    {
+      "feature": "num__days_since_last_match_diff",
+      "contribution": 0.3548878824093096
+    }
+  ],
+  "Delhi Capitals vs Punjab Kings": [
+    {
+      "feature": "num__days_since_last_match_diff",
+      "contribution": -0.591479804015516
+    },
+    {
+      "feature": "num__season_runs_for_diff",
+      "contribution": 0.4871928782356974
+    },
+    {
+      "feature": "num__current_streak_diff",
+      "contribution": 0.46509996860459174
+    },
+    {
+      "feature": "num__season_win_rate_diff",
+      "contribution": 0.45812398401303145
+    },
+    {
+      "feature": "num__powerplay_runs_diff",
+      "contribution": -0.4161420129016364
+    }
+  ],
+  "Rajasthan Royals vs Sunrisers Hyderabad": [
+    {
+      "feature": "num__season_runs_for_diff",
+      "contribution": 0.7400952487355759
+    },
+    {
+      "feature": "num__recent_runs_for_diff",
+      "contribution": -0.6950308133696155
+    },
+    {
+      "feature": "num__powerplay_runs_diff",
+      "contribution": 0.3771286991921079
+    },
+    {
+      "feature": "num__season_win_rate_diff",
+      "contribution": -0.3664991872104252
+    },
+    {
+      "feature": "num__recent_win_rate_diff",
+      "contribution": 0.2750931768221984
+    }
+  ],
+  "Chennai Super Kings vs Gujarat Titans": [
+    {
+      "feature": "num__season_matches_played_diff",
+      "contribution": -0.5972257767505224
+    },
+    {
+      "feature": "num__home_advantage_diff",
+      "contribution": -0.26504521849328777
+    },
+    {
+      "feature": "num__days_since_last_match_diff",
+      "contribution": 0.2365919216062064
+    },
+    {
+      "feature": "num__powerplay_wickets_diff",
+      "contribution": -0.19937486166931742
+    },
+    {
+      "feature": "num__historical_win_rate_diff",
+      "contribution": 0.1729427699373671
+    }
+  ],
+  "Lucknow Super Giants vs Kolkata Knight Riders": [
+    {
+      "feature": "num__season_matches_played_diff",
+      "contribution": -0.5972257767505224
+    },
+    {
+      "feature": "num__season_runs_against_diff",
+      "contribution": -0.49057611827467634
+    },
+    {
+      "feature": "num__season_runs_for_diff",
+      "contribution": 0.4795291700387315
+    },
+    {
+      "feature": "num__recent_runs_for_diff",
+      "contribution": -0.39892301122398083
+    },
+    {
+      "feature": "num__season_win_rate_diff",
+      "contribution": -0.3664991872104252
+    }
+  ]
+}
