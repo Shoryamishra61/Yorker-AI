@@ -1,12 +1,12 @@
 ---
 title: Yorker AI — IPL 2026 Prediction Engine
 emoji: 🏏
-colorFrom: orange
+colorFrom: yellow
 colorTo: blue
 sdk: static
 pinned: true
 license: mit
-short_description: ML-powered IPL 2026 match winner predictions with live dashboard
+short_description: ML-powered IPL match winner predictions dashboard
 ---
 
 # Yorker AI 🏏
