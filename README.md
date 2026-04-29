@@ -2,8 +2,7 @@
 
 **ML-powered IPL 2026 match winner predictions** — trained on 1,100+ real matches, walk-forward validated across 11 seasons.
 
-> **Live Dashboard:** [huggingface.co/spaces/Shoryamishra61/yorker-ai](https://huggingface.co/spaces/Shoryamishra61/yorker-ai)
-
+> **Live Dashboard:** [huggingface.co/spaces/Shoryamishra61/yorker-ai](https://huggingface.co/spaces/silentkiller61/Yorker-AI)
 ## What is Yorker AI?
 
 Yorker AI is a research-grade IPL match prediction engine. It ingests ball-by-ball data from Cricsheet, engineers 27 leakage-safe pre-match features, and uses an L1-regularized logistic regression model with recency weighting to predict match winners.
