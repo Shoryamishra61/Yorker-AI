@@ -26,7 +26,7 @@ read -p "Enter your GitHub username: " GH_USER
 read -sp "Enter your GitHub PAT (personal access token): " GH_TOKEN
 echo ""
 
-REPO_NAME="IPL_ML"
+REPO_NAME="Yorker-AI"
 GH_URL="https://${GH_USER}:${GH_TOKEN}@github.com/${GH_USER}/${REPO_NAME}.git"
 
 # Add remote if not exists

@@ -25,7 +25,7 @@ SPACE_NAME = "yorker-ai"
 SPACE_DIR = Path(__file__).parent / "hf_space"
 
 
-def deploy(username: str, token: str | None = None):
+def deploy(username: str, token=None):
     api = HfApi(token=token)
     repo_id = f"{username}/{SPACE_NAME}"
 
